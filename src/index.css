@@ -40,3 +40,12 @@ header {
     padding: 1rem;
   }
 }
+
+@media screen and (max-width: 400px) {
+  #root {
+    grid-template-columns: 1fr;
+  } main {
+    grid-column: 1;
+    padding: 1rem;
+    }
+  }
