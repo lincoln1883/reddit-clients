@@ -45,8 +45,12 @@ header {
   #root {
     grid-template-columns: 1fr;
   } main {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
     grid-column: 1;
     padding: 1rem;
-    width: 100%;
+    width: 100%vw;
     }
   }
