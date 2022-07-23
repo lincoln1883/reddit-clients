@@ -41,11 +41,12 @@ header {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) {
   #root {
     grid-template-columns: 1fr;
   } main {
     grid-column: 1;
     padding: 1rem;
+    width: 100%;
     }
   }
